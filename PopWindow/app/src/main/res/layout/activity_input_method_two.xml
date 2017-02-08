@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_input_method_two"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.huoyunren.popwindow.InputMethodTwo">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:singleLine="true"
+        android:hint="actionDone"
+        android:imeOptions="actionDone"
+        android:imeActionLabel="actionDone"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:singleLine="true"
+        android:hint="actionGo"
+        android:imeOptions="actionGo"
+        android:imeActionLabel="actionGo"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:singleLine="true"
+        android:hint="actionNext"
+        android:imeOptions="actionNext"
+        android:imeActionLabel="actionNext"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:singleLine="true"
+        android:hint="actionNone"
+        android:imeOptions="actionNone"
+        android:imeActionLabel="actionNone"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:singleLine="true"
+        android:hint="actionPrevious"
+        android:imeOptions="actionPrevious"
+        android:imeActionLabel="actionPrevious"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:singleLine="true"
+        android:hint="actionSearch"
+        android:imeOptions="actionSearch"
+        android:imeActionLabel="actionSearch"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:singleLine="true"
+        android:hint="actionSend"
+        android:imeOptions="actionSend"
+        android:imeActionLabel="actionSend"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:singleLine="true"
+        android:imeOptions="actionUnspecified"
+        android:hint="actionUnspecified"
+        android:imeActionLabel="actionUnspecified"/>
+
+</LinearLayout>

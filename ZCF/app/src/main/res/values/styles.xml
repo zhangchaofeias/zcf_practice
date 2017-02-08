@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+        <!-- Customize your theme here. -->
+    </style>
+    
+    <style name="pop_window">
+        <item name="android:windowEnterAnimation">@anim/down</item>
+        <item name="android:windowExitAnimation">@anim/up</item>
+    </style>
+
+</resources>

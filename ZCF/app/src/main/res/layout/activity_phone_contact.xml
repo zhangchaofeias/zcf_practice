@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_phone_contact"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="g7.zcf.phoneconnnect.PhoneContactActivity">
+
+    <TextView
+        android:id="@+id/getContact"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="获取手机联系人" />
+
+    <TextView
+        android:id="@+id/phoneInfo"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+</LinearLayout>

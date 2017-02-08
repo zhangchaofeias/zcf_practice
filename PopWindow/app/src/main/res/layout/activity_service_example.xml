@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_service_example"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.huoyunren.popwindow.CServiceExample">
+
+    <EditText
+        android:id="@+id/input_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="input name" />
+
+    <EditText
+        android:id="@+id/input_sex"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="input sex"/>
+
+    <Button
+        android:id="@+id/start_service"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="start service"/>
+
+    <Button
+        android:id="@+id/stop_service"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="stop service"/>
+
+    <Button
+        android:id="@+id/bind_service"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="bind service"/>
+
+    <Button
+        android:id="@+id/unbind_service"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="unbind service"/>
+
+    <TextView
+        android:id="@+id/show_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="show changed name" />
+
+    <TextView
+        android:id="@+id/show_sex"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="show changed sex"/>
+
+</LinearLayout>

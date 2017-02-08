@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="g7.zcf.amap.Mylocation">
+
+    <com.amap.api.maps.MapView
+        android:id="@+id/gaodeMapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.amap.api.maps.MapView>
+
+    <Button
+        android:id="@+id/UMShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="友盟分享"/>
+
+    <Button
+        android:id="@+id/myLocationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="my"
+        android:layout_below="@id/UMShare"/>
+
+    <Button
+        android:id="@+id/showLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="划线"
+        android:layout_below="@+id/myLocationButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/jiupian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="纠偏"
+        android:layout_below="@+id/showLine"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/btn_dingwei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="定位" />
+
+        <RadioButton
+            android:id="@+id/btn_zhuisui"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="追随"/>
+
+        <RadioButton
+            android:id="@+id/btn_xuanzhuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="旋转"/>
+    </RadioGroup>
+
+</RelativeLayout>

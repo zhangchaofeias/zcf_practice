@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".amap.LocationServiceActivity">
+
+    <com.amap.api.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    </com.amap.api.maps.MapView>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:visibility="gone">
+
+        <Button
+                android:id="@+id/btn_normal"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="正常模式"/>
+
+        <Button
+                android:id="@+id/btn_satellite"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="卫星模式"/>
+
+        <Button
+                android:id="@+id/btn_night"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="夜间模式"/>
+
+        <Button
+                android:id="@+id/btn_navi"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="导航模式"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+        <Button
+                android:id="@+id/btn_lukuang"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="路况"/>
+        <Button
+                android:id="@+id/btn_xuanzhuan"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="旋转"/>
+
+        <Button
+                android:id="@+id/btn_stop"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="停止"/>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_input_mothod"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.huoyunren.popwindow.InputMothod">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:singleLine="true"
+        android:hint="actionDone"
+        android:imeOptions="a" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:singleLine="true"
+        android:hint="actionGo"
+        android:imeOptions="actionGo" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:singleLine="true"
+        android:hint="actionNext"
+        android:imeOptions="actionNext" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:singleLine="true"
+        android:hint="actionNone"
+        android:imeOptions="actionNone" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:singleLine="true"
+        android:hint="actionPrevious"
+        android:imeOptions="actionPrevious" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:singleLine="true"
+        android:hint="actionSearch"
+        android:imeOptions="actionSearch" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:singleLine="true"
+        android:hint="actionSend"
+        android:imeOptions="actionSend" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:singleLine="true"
+        android:imeOptions="actionUnspecified"
+        android:hint="actionUnspecified"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="to imeActionLabel"/>
+
+</LinearLayout>
